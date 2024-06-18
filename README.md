@@ -11,6 +11,7 @@ example -> directory holding the program to be uploaded to the pico
 freertos -> directory holding the FreeRTOS kernel used to build the program with
 
 ## Building
+Inside this repo call 'git submodule --init' to initialise the FreeRTOS submodule in this repo
 First clone the pico-sdk from https://github.com/raspberrypi/pico-sdk and call 'git update submodule --init' inside it  
 Then set PICO_SDK_PATH to be this directory  
 For the raspberry pi pico program, go into the example directory and type 'cmake -B build' then 'cmake --build build'  
