@@ -1,3 +1,0 @@
-/home/fraser/rp_pico/example/build/pioasm/CMakeFiles/pioasm.dir
-/home/fraser/rp_pico/example/build/pioasm/CMakeFiles/edit_cache.dir
-/home/fraser/rp_pico/example/build/pioasm/CMakeFiles/rebuild_cache.dir

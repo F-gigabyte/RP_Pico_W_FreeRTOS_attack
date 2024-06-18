@@ -1,2 +1,11 @@
 example/.ycm_extra_conf.py
 example/build/CMakeFiles/**
+example/build/Makefile/**
+example/build/cmake_install.cmake
+example/build/elf2uf2/**
+example/build/generated/**
+example/build/pico-sdk/**
+example/build/pioasm/**
+example/build/CMakeCache.txt
+example/build/FREERTOS_KERNEL/**
+example/build/Makefile
