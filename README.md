@@ -4,6 +4,7 @@ With thanks to racka98 https://github.com/racka98/PicoW-FreeRTOS-Template and To
 By overriding the return address on the stack the program is able to recall a function that should only be called once leading to functionality the developer didn't expect  
 The block_data positioned in perform_task is overrwritten when the raspberry pi pico recieves a block from the python program with the new block data and if the block is too big, it can overrwrite more of the stack than it's supposed to  
 This would also work without the FreeRTOS kernel since it doesn't provide many memory protection mechanisms for its programs  
+This branch also uses a canary to protect the stack but overwrites it when sending the evil payload  
 
 ## Project Layout
 sender -> directory holding the python program to send messages to the pico

